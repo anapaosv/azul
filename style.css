@@ -1,0 +1,25 @@
+/* Design tokens */
+:root {
+  --clr-primario: #0000d9;
+    --clr-primario-claro: #2323e6;
+    --clr-primario-oscuro:#0606b0;
+    --clr-secundario: #ff76bc;
+    --clr-secundario-claro:#f8afd4;
+    --clr-secundario-oscuro:#d53a89;
+    --clr-terciario:#ffff10;
+    --clr-terciario-claro:#FF6F00;
+    --clr-terciario-oscuro:#FF6F00;
+  --ff-titulos: "Glysa";
+  --ff-body: "Frutiger";
+  --h1: 49px;
+  --h2: 38px;
+  --h3: 31px;
+  --h4: 27px;
+  --h5: 20px;
+  --h6: 16px;
+}
+
+/* Base */
+body {
+background-color: var(--clr-primario-claro);
+}
