@@ -1,14 +1,14 @@
 /* Design tokens */
 :root {
   --clr-primario: #0000d9;
-    --clr-primario-claro: #2323e6;
-    --clr-primario-oscuro:#0606b0;
-    --clr-secundario: #ff76bc;
-    --clr-secundario-claro:#f8afd4;
-    --clr-secundario-oscuro:#d53a89;
-    --clr-terciario:#ffff10;
-    --clr-terciario-claro:#FF6F00;
-    --clr-terciario-oscuro:#FF6F00;
+  --clr-primario-claro: #2323e6;
+  --clr-primario-oscuro: #0606b0;
+  --clr-secundario: #ff76bc;
+  --clr-secundario-claro: #f8afd4;
+  --clr-secundario-oscuro: #d53a89;
+  --clr-terciario: #ffff10;
+  --clr-terciario-claro: #ff6f00;
+  --clr-terciario-oscuro: #ff6f00;
   --ff-titulos: "Glysa";
   --ff-body: "Frutiger";
   --h1: 49px;
@@ -21,17 +21,36 @@
 
 /* Base */
 body {
-background-color: var(--clr-primario-claro);
+  background-color: var(--clr-primario-claro);
 }
 
 /* Menu */
-.menu {}
-.menu__logo {}
-.menu__link {}
+.menu {
+}
+.menu__logo {
+}
+.menu__link {
+}
+/* menu */
+.boton__menu {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 /* hero */
-.hero {}
-.hero__header {}
-.hero__slogan {}
-.hero__boton-cta {}
-.hero__boton-portal {}
+.hero {
+  background-color: var(--clr-primario-claro);
+}
+.hero__titulo {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 70px;
+}
+.hero__slogan {
+  color: white;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hero__btn {
+  color: white;
+}
