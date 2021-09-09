@@ -1,56 +1,101 @@
-/* Design tokens */
-:root {
-  --clr-primario: #0000d9;
-  --clr-primario-claro: #2323e6;
-  --clr-primario-oscuro: #0606b0;
-  --clr-secundario: #ff76bc;
-  --clr-secundario-claro: #f8afd4;
-  --clr-secundario-oscuro: #d53a89;
-  --clr-terciario: #ffff10;
-  --clr-terciario-claro: #ff6f00;
-  --clr-terciario-oscuro: #ff6f00;
-  --ff-titulos: "Glysa";
-  --ff-body: "Frutiger";
-  --h1: 49px;
-  --h2: 38px;
-  --h3: 31px;
-  --h4: 27px;
-  --h5: 20px;
-  --h6: 16px;
+/*** Design tokens ***/
+ :root {
+	--clr-primario: #0000d9;
+	--clr-primario-claro: #2323e6;
+	--clr-primario-oscuro: #0606b0;
+	--clr-secundario: #ff76bc;
+	--clr-secundario-claro: #f8afd4;
+	--clr-secundario-oscuro: #d53a89;
+	--clr-terciario: #ffff10;
+	--clr-terciario-claro: #ff6f00;
+	--clr-terciario-oscuro: #ff6f00;
+	--ff-titulos: "Glysa";
+	--ff-body: "Frutiger";
+	--h1: 49px;
+	--h2: 38px;
+	--h3: 31px;
+	--h4: 27px;
+	--h5: 20px;
+	--h6: 16px;
 }
 
-/* Base */
+/*** Reset ***/
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	list-style: none;
+}
+li {
+	padding-inline: 0;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/*** Base ***/
 body {
-  background-color: var(--clr-primario-claro);
+	background-color: var(--clr-primario-claro);
 }
 
+/* Typescale */
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+/*** Componentes ***/
 /* Menu */
-.menu {
-}
-.menu__logo {
-}
-.menu__link {
-}
-/* menu */
+.menu {}
+.menu__logo {}
+.menu__link {}
 .boton__menu {
-  color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* hero */
 .hero {
-  background-color: var(--clr-primario-claro);
+	background-color: var(--clr-primario-claro);
 }
 .hero__titulo {
-  color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 70px;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 70px;
 }
 .hero__slogan {
-  color: white;
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: white;
+	font-size: 20px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .hero__btn {
-  color: white;
+	color: white;
 }
