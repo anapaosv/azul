@@ -1,0 +1,11 @@
+/* Mich */
+Tipografia
+Video de clonar remoto a local para trabajar en la ultima v
+
+/* Pao */
+Actualizar enlaces
+Subir prototipo completo
+
+/* Emma */
+Subir imagenes a cloudinary y copiar urls
+Diseno para movil

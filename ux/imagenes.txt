@@ -1,0 +1,1 @@
+/* Urls de imagenes de cloudinary */

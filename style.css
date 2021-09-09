@@ -44,7 +44,7 @@ img {
 
 /*** Base ***/
 body {
-	background-color: var(--clr-primario-claro);
+/*	background-color: var(--clr-primario-claro);*/
 }
 
 /* Typescale */
@@ -85,6 +85,7 @@ h6 {
 /* hero */
 .hero {
 	background-color: var(--clr-primario-claro);
+  border: 2px solid black; /* quitar despues */
 }
 .hero__titulo {
 	color: white;
