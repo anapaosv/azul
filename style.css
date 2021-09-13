@@ -1,3 +1,30 @@
+/*** Imports ***/
+@font-face {
+	font-family: 'FrutigerBlack';
+	src: url('./fonts/FrutigerLTStd-Black.woff2') format('woff2')
+  }
+@font-face {
+	font-family: 'FrutigerBlackCn';
+	src: url('./fonts/FrutigerLTStd-BlackCn.woff2') format('woff2')
+  }
+  @font-face {
+	font-family: 'FrutigerBold';
+	src: url('./fonts/FrutigerLTStd-Bold.woff2') format('woff2')
+  }
+  @font-face {
+	font-family: 'FrutigerItalic';
+	src: url('./fonts/FrutigerLTStd-Italic.woff2') format('woff2')
+  }
+  @font-face {
+	font-family: 'FrutigerLight';
+	src: url('./fonts/FrutigerLTStd-Light.woff2') format('woff2')
+  }
+  @font-face {
+	font-family: 'Frutiger';
+	src: url('./fonts/FrutigerLTStd-Roman.woff2') format('woff2')
+  }
+  
+
 /*** Design tokens ***/
  :root {
 	--clr-primario: #0000d9;
@@ -11,6 +38,11 @@
 	--clr-terciario-oscuro: #ff6f00;
 	--ff-titulos: "Glysa";
 	--ff-body: "Frutiger";
+	--ff-black: "FrutigerBlack";
+	--ff-blackcn: "FrutigerBlackCn";
+	--ff-bold: "FrutigerBold";
+	--ff-italic: "FrutigerItalic";
+	--ff-light: "FrutigerLight";
 	--h1: 49px;
 	--h2: 38px;
 	--h3: 31px;
@@ -44,7 +76,7 @@ img {
 
 /*** Base ***/
 body {
-/*	background-color: var(--clr-primario-claro);*/
+	font-family: var(--ff-body);
 }
 
 /* Typescale */
