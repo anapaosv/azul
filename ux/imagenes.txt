@@ -1,1 +1,27 @@
 /* Urls de imagenes de cloudinary */
+final 7
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559099/final7_jayrlw.jpg
+
+final 6
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559094/final6_nsfcxq.jpg
+
+final 5
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final5_fzqki7.jpg
+
+final 4
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg
+
+final 3
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg
+
+final 2
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559080/final2_v4ryv2.jpg
+
+final 1
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559080/final2_v4ryv2.jpg
+
+final 0
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631559079/final3_atldlj.jpg
+
+final
+https://res.cloudinary.com/djfu7akxy/image/upload/v1631558903/final_01_qiyhpa.jpg
