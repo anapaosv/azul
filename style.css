@@ -118,18 +118,24 @@ h6 {
 }
 /* hero */
 .hero {
+	position: relative;
+	height: 400px;
 	background-color: var(--clr-primario-claro);
 	border: 2px solid black;/* quitar despues */
 }
 .hero__titulo {
 	color: white;
-
+    text-align: center;
 	font-size: 70px;
 }
 .hero__slogan {
 	color: white;
-	font-size: 20px
+	font-size: 20px;
+
 }
 .hero__btn {
 	color: white;
+	position: absolute;
+	/* top, right, bottom, left */
+	top: 0;
 }
