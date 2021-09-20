@@ -102,40 +102,54 @@ h5 {
 h6 {
 	font-size: var(--h6);
 }
-/*** Componentes ***/
-/* Menu */
-.menu {
 
-}
-.menu__logo {
-
-}
-.menu__link {
-
-}
-.boton__menu {
-	color: white
-}
-/* hero */
-.hero {
-	position: relative;
-	height: 400px;
+  
+  /* Base */
+  body {
 	background-color: var(--clr-primario-claro);
-	border: 2px solid black;/* quitar despues */
-}
-.hero__titulo {
+  }
+  
+  /* Menu */
+  .menu {
+  }
+  .menu__logo {
+  }
+  .menu__link {
+  }
+  /* menu */
+  .boton__menu {
 	color: white;
-    text-align: center;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  /* hero */
+  .hero {
+	background-color: var(--clr-primario-claro);
+	height: 400px;
+  }
+
+  .hero__titulo {
+	text-align: center;
+	color: white;
+	font-family: "Glysa";
 	font-size: 70px;
-}
-.hero__slogan {
+  }
+
+  .hero__slogan {
+	text-align: center;
 	color: white;
 	font-size: 20px;
-
-}
-.hero__btn {
-	color: white;
-	position: absolute;
-	/* top, right, bottom, left */
-	top: 0;
-}
+	font-family: "Frutigerg";
+  }
+  
+  .hero__btn_left {
+	background-image: url('https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+  }
+  
+  .hero__btn_right {
+	background-image: url('https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+  }
