@@ -114,7 +114,7 @@ h6 {
 
 }
 .boton__menu {
-	color: white/* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+	color: white
 }
 /* hero */
 .hero {
@@ -123,12 +123,12 @@ h6 {
 }
 .hero__titulo {
 	color: white;
-/* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+
 	font-size: 70px;
 }
 .hero__slogan {
 	color: white;
-	font-size: 20px/* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+	font-size: 20px
 }
 .hero__btn {
 	color: white;
