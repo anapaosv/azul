@@ -23,6 +23,10 @@
 	font-family: 'Frutiger';
 	src: url('./fonts/FrutigerLTStd-Roman.woff2') format('woff2')
 }
+@font-face {
+	font-family: 'Glysa';
+	src: url('./fonts/glysa-medium.woff2') format('woff2')
+}
 
 /*** Design tokens ***/
 :root {
@@ -75,6 +79,9 @@ img {
 /*** Base ***/
 body {
 	font-family: var(--ff-body);
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: var(--ff-titulos);
 }
 /* Typescale */
 h1 {
