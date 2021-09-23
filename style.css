@@ -1,35 +1,35 @@
 /*** Imports ***/
 @font-face {
-	font-family: 'FrutigerBlack';
-	src: url('./fonts/FrutigerLTStd-Black.woff2') format('woff2')
-}
-@font-face {
-	font-family: 'FrutigerBlackCn';
-	src: url('./fonts/FrutigerLTStd-BlackCn.woff2') format('woff2')
-}
-@font-face {
-	font-family: 'FrutigerBold';
-	src: url('./fonts/FrutigerLTStd-Bold.woff2') format('woff2')
-}
-@font-face {
-	font-family: 'FrutigerItalic';
-	src: url('./fonts/FrutigerLTStd-Italic.woff2') format('woff2')
-}
-@font-face {
-	font-family: 'FrutigerLight';
-	src: url('./fonts/FrutigerLTStd-Light.woff2') format('woff2')
-}
-@font-face {
-	font-family: 'Frutiger';
-	src: url('./fonts/FrutigerLTStd-Roman.woff2') format('woff2')
-}
-@font-face {
-	font-family: 'Glysa';
-	src: url('./fonts/glysa-medium.woff2') format('woff2')
-}
-
-/*** Design tokens ***/
-:root {
+	font-family: "FrutigerBlack";
+	src: url("./fonts/FrutigerLTStd-Black.woff2") format("woff2");
+  }
+  @font-face {
+	font-family: "FrutigerBlackCn";
+	src: url("./fonts/FrutigerLTStd-BlackCn.woff2") format("woff2");
+  }
+  @font-face {
+	font-family: "FrutigerBold";
+	src: url("./fonts/FrutigerLTStd-Bold.woff2") format("woff2");
+  }
+  @font-face {
+	font-family: "FrutigerItalic";
+	src: url("./fonts/FrutigerLTStd-Italic.woff2") format("woff2");
+  }
+  @font-face {
+	font-family: "FrutigerLight";
+	src: url("./fonts/FrutigerLTStd-Light.woff2") format("woff2");
+  }
+  @font-face {
+	font-family: "Frutiger";
+	src: url("./fonts/FrutigerLTStd-Roman.woff2") format("woff2");
+  }
+  @font-face {
+	font-family: "Glysa";
+	src: url("./fonts/glysa-medium.woff2") format("woff2");
+  }
+  
+  /*** Design tokens ***/
+  :root {
 	--clr-primario: #0000d9;
 	--clr-primario-claro: #2323e6;
 	--clr-primario-oscuro: #0606b0;
@@ -51,66 +51,75 @@
 	--h3: 31px;
 	--h4: 27px;
 	--h5: 20px;
-	--h6: 16px
-}
-
-/*** Reset ***/
-html {
-	box-sizing: border-box
-}
-*,
-*::before,
-*::after {
+	--h6: 16px;
+  }
+  
+  /*** Reset ***/
+  html {
+	box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
 	box-sizing: inherit;
 	margin: 0;
 	padding: 0;
-}
-ul,
-ol {
+  }
+  ul,
+  ol {
 	list-style: none;
-}
-li {
+  }
+  li {
 	padding-inline: 0;
-}
-img {
+  }
+  img {
 	max-width: 100%;
 	display: block;
-}
-/*** Base ***/
-body {
+  }
+  /*** Base ***/
+  body {
 	font-family: var(--ff-body);
-}
-h1,h2,h3,h4,h5,h6 {
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
 	font-family: var(--ff-titulos);
-}
-/* Typescale */
-h1 {
+  }
+  /* Typescale */
+  h1 {
 	font-size: var(--h1);
-}
-h2 {
+  }
+  h2 {
 	font-size: var(--h2);
-}
-h3 {
+  }
+  h3 {
 	font-size: var(--h3);
-}
-h4 {
+  }
+  h4 {
 	font-size: var(--h4);
-}
-h5 {
+  }
+  h5 {
 	font-size: var(--h5);
-}
-h6 {
+  }
+  h6 {
 	font-size: var(--h6);
-}
-
-
+  }
+  
   /* Base */
   body {
 	background-color: var(--clr-primario-claro);
   }
-
+  
+  a {
+	text-decoration: none;
+  }
+  
   /* Menu */
-  .menu {
+  .menu ul {
+	display: flex;
   }
   .menu__logo {
   }
@@ -121,37 +130,47 @@ h6 {
 	color: white;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-
+  
   /* hero */
   .hero {
 	background-color: var(--clr-primario-claro);
 	height: 400px;
+	border: 2px solid white;
+	position: relative;
   }
-
+  
   .hero__titulo {
 	text-align: center;
 	color: white;
 	font-family: "Glysa";
 	font-size: 70px;
   }
-
+  
   .hero__slogan {
 	text-align: center;
 	color: white;
 	font-size: 20px;
 	font-family: "Frutigerg";
   }
-
-  .hero__btn_left {
-	background-image: url('https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg');
+  
+  .hero__btn {
+	height: 120px;
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	line-height: 120px;
+	border-radius: 120px;
 	background-repeat: no-repeat;
-	background-position: top left;
-	justify-content: flex-start;
+	background-size: cover;
+	position: absolute;
   }
-
-  .hero__btn_right {
-	background-image: url('https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg');
-	background-repeat: no-repeat;
-	background-position: bottom right;
-	justify-content: flex-end;
+  .hero__btn.right {
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	bottom: 12px;
+	left: 12px;
   }
+  .hero__btn.left {
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg");
+	right: 0;
+  }
+  
