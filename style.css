@@ -199,14 +199,17 @@
 	background-size: cover;
 	position: absolute;
   }
+  
   .hero__btn.right {
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
-	bottom: 20px;
-	left: 20px;
+	bottom: 30px;
+	right: 30px;
+	position: fixed;
   }
+  
   .hero__btn.left {
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg");
-	right: 20px;
-	top: 20px;
+	left: 30px;
+	top: 30px;
   }
   
