@@ -115,9 +115,11 @@
   
   a {
 	text-decoration: none;
+	color: white;
   }
   
   /* Menu */
+  
   .menu ul {
 	display: flex;
   }
@@ -126,16 +128,45 @@
   .menu__link {
   }
   /* menu */
-  .boton__menu {
-	color: white;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  .nav {
+	background-color: #ffffff;
+  }
+  
+  .nav ul {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+  }
+  
+  .nav ul a {
+	list-style: none;
+	text-decoration: none;
+	font-family: "Glysa";
+	font-size: 13px;
+	color: var(--clr-primario-claro);
+	padding: 10px;
+	line-height: 2;
+  }
+  
+  .nav ul e {
+	list-style: none;
+	text-decoration: none;
+	font-family: "FrutigerBold";
+	font-size: 20px;
+	color: #ff76bc;
+	padding: 10px;
+	line-height: 2;
   }
   
   /* hero */
   .hero {
+	display: grid;
+	place-content: center;
+	gap: 0.1px;
 	background-color: var(--clr-primario-claro);
-	height: 400px;
-	border: 2px solid white;
+	height: 560px;
+	/*border: 2px solid white;*/
 	position: relative;
   }
   
@@ -143,17 +174,21 @@
 	text-align: center;
 	color: white;
 	font-family: "Glysa";
-	font-size: 70px;
+	font-size: 130px;
   }
   
   .hero__slogan {
 	text-align: center;
 	color: white;
-	font-size: 20px;
-	font-family: "Frutigerg";
+	font-size: 14.7px;
+	line-height: 10px;
+	font-family: "Frutiger";
   }
   
   .hero__btn {
+	font-family: "Glysa";
+	font-size: 16.6px;
+	color: var(--clr-primario-claro);
 	height: 120px;
 	width: 120px;
 	display: inline-block;
@@ -166,11 +201,12 @@
   }
   .hero__btn.right {
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
-	bottom: 12px;
-	left: 12px;
+	bottom: 20px;
+	left: 20px;
   }
   .hero__btn.left {
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg");
-	right: 0;
+	right: 20px;
+	top: 20px;
   }
   
