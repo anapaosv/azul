@@ -182,6 +182,10 @@
 	bottom: 30px;
 	right: 30px;
 	position: fixed;
+	box-shadow: -8px 14px 5px 0px #262728;
+  }
+  .hero__btn.right:hover {
+  	box-shadow:none;
   }
   .hero__btn.left {
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg");
@@ -219,4 +223,3 @@
 	padding-left: 120px;
 	padding-right: 120px;
   }
-  
