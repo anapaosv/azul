@@ -119,15 +119,6 @@
   }
 
   /* Menu */
-
-  .menu ul {
-	display: flex;
-  }
-  .menu__logo {
-  }
-  .menu__link {
-  }
-  /* menu */
   .nav {
 	background-color: #ffffff;
   }
