@@ -79,6 +79,7 @@
   /*** Base ***/
   body {
 	font-family: var(--ff-body);
+	overflow-x: hidden;
   }
   h1,
   h2,
@@ -237,16 +238,10 @@
 	font-size: var(--font-size);
   }*/
   
-  .pantalla_dos {
-	height: auto;
-	max-height: max-content;
-  }
-  
   .carrusel {
 	position: relative;
-	overflow: hidden;
 	width: 100%;
-	max-height: 800px;
+	height: 90vh;
   }
   
   .carrusel .open:checked + figure {
@@ -273,24 +268,24 @@
   
   .carrusel figure p {
 	font-family: frutiger;
-	font-size: 3vh;
+	font-size: 2vh;
 	color: #ffffff;
 	text-align: center;
 	margin-bottom: 25px;
 	/*padding-left: 160px;
 	padding-right: 160px;*/
-	padding-bottom: 10vh;
+	padding-bottom: 5vh;
 	max-width: 60vw;
 	margin: auto;
   }
   
   .carrusel figure h1 {
-	padding-top: 5vh;
+	padding-top: 2vh;
 	font-family: Glysa;
-	font-size: 7vh;
+	font-size: 4vh;
 	color: #ffffff;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 	padding-left: 120px;
 	padding-right: 120px;
   }
@@ -301,7 +296,7 @@
 	color: #fff;
 	cursor: pointer;
 	display: none;
-	font-size: 40px;
+	font-size: 1px;
 	height: 40px;
 	line-height: 35px;
 	position: absolute;
@@ -334,10 +329,10 @@
   
   .carrusel-dots {
 	list-style: none;
-	margin: 0;
+	margin: -100px;
 	padding: 0;
 	position: absolute;
-	bottom: 0;
+	bottom: 100px;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -370,7 +365,7 @@
   .carruselC {
 	position: relative;
 	overflow: hidden;
-	width: 100%;
+	width: 200vh;
   }
   
   .carruselC .open:checked + figure {
@@ -433,10 +428,10 @@
   
   .carruselC-dots {
 	list-style: none;
-	margin: 0;
+	margin: 90px;
 	padding: 0;
 	position: absolute;
-	bottom: 0;
+	bottom: 1px;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -496,21 +491,12 @@
   
   .institucion__btn.left {
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
-	top: 2300px;
+	bottom: 80px;
 	left: 5px;
 	position: absolute;
   }
   
-  .oferta {
-	font-size: 15 px;
-	width: 90vw;
-	margin: auto;
-	height: 40vh;
-	text-align: justify;
-	padding: 15px 0px;
-  }
-  
-  .oferta__btn {
+  .valores__btn {
 	font-family: "Glysa";
 	font-size: 16.6px;
 	color: var(--clr-primario-claro);
@@ -523,6 +509,90 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
+  }
+  
+  .valores__btn {
+	font-family: "Glysa";
+	font-size: 16.6px;
+	color: var(--clr-primario-claro);
+	height: 120px;
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	line-height: 120px;
+	border-radius: 120px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+  }
+  
+  .oferta {
+	font-size: 15 px;
+	width: 30vw;
+	height: 100vh;
+	margin: auto;
+	text-align: justify;
+	display: grid;
+	place-content: center;
+	padding: 15px 0px;
+	position: relative;
+  }
+  
+  .ofertaLicenciatura__btn {
+	font-family: "Glysa";
+	font-size: 16.6px;
+	color: var(--clr-primario-claro);
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+	line-height: 120px;
+	border-radius: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	background-image: image();
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	inset: 0;
+	transform: translate(-200px, 60px);
+  }
+  
+  .ofertaMaestria__btn {
+	font-family: "Glysa";
+	font-size: 16.6px;
+	color: var(--clr-primario-claro);
+	height: 90px;
+	width: 90px;
+	display: inline-block;
+	text-align: center;
+	line-height: 120px;
+	border-radius: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	background-image: image();
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	inset: 0;
+	transform: translate(0, 60px);
+  }
+  
+  .ofertaEducacionContinua__btn {
+	font-family: "Glysa";
+	font-size: 16.6px;
+	color: var(--clr-primario-claro);
+	height: 120px;
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	line-height: 120px;
+	border-radius: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	background-image: image();
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	inset: 0;
+	transform: translate(-200px, 240px);
   }
   
   .oferta p {
