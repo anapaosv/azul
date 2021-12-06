@@ -76,6 +76,7 @@
 	max-width: 100%;
 	display: block;
   }
+  
   /*** Base ***/
   body {
 	font-family: var(--ff-body);
@@ -185,8 +186,28 @@
 	line-height: 10px;
 	font-family: "Frutiger";
   }
+  @keyframes animacionhero {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes vuelta {
+	from {
+	  transform: rotate(0deg);
+	}
+  
+	to {
+	  transform: rotate(360deg);
+	}
+  }
   
   .hero__btn {
+	animation: vuelta 500ms infinite linear;
 	font-family: "Glysa";
 	font-size: 16.6px;
 	color: var(--clr-primario-claro);
@@ -202,6 +223,13 @@
   }
   
   .hero__btn.right {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
 	bottom: 30px;
 	right: 30px;
@@ -209,6 +237,13 @@
   }
   
   .hero__btn.left {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559091/final8_qm3axu.jpg");
 	left: 30px;
 	top: 30px;
@@ -468,6 +503,13 @@
   }
   
   .institucion__btn {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	font-family: "Glysa";
 	font-size: 16.6px;
 	color: var(--clr-primario-claro);
@@ -483,20 +525,41 @@
   }
   
   .institucion__btn.right {
-	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1638470480/fotos%20chicas/9_hkcsie.jpg");
 	top: 100px;
 	right: 5px;
 	position: absolute;
   }
   
   .institucion__btn.left {
-	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1638470480/fotos%20chicas/8_y7d5mg.jpg");
 	bottom: 80px;
 	left: 5px;
 	position: absolute;
   }
   
   .valores__btn {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	font-family: "Glysa";
 	font-size: 16.6px;
 	color: var(--clr-primario-claro);
@@ -512,6 +575,13 @@
   }
   
   .valores__btn {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	font-family: "Glysa";
 	font-size: 16.6px;
 	color: var(--clr-primario-claro);
@@ -539,6 +609,13 @@
   }
   
   .ofertaLicenciatura__btn {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	font-family: "Glysa";
 	font-size: 16.6px;
 	color: var(--clr-primario-claro);
@@ -552,14 +629,22 @@
 	background-size: cover;
 	position: absolute;
 	background-image: image();
-	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1638470480/fotos%20chicas/11_n3zbio.jpg");
 	inset: 0;
 	transform: translate(-200px, 60px);
   }
   
   .ofertaMaestria__btn {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	font-family: "Glysa";
 	font-size: 16.6px;
+	text-align: center;
 	color: var(--clr-primario-claro);
 	height: 90px;
 	width: 90px;
@@ -571,12 +656,19 @@
 	background-size: cover;
 	position: absolute;
 	background-image: image();
-	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1638470480/fotos%20chicas/10_xqp9cu.jpg");
 	inset: 0;
 	transform: translate(0, 60px);
   }
   
   .ofertaEducacionContinua__btn {
+	animation: animacionhero 2s ease-in;
+	animation: vuelta 500ms 1 linear;
+	animation-name: animacionhero, vuelta;
+	animation-duration: 2s, 2s;
+	animation-delay: 0, 2s;
+	animation-timing-function: ease-in, ease-out;
+	animation-iteration-count: 1, 1;
 	font-family: "Glysa";
 	font-size: 16.6px;
 	color: var(--clr-primario-claro);
@@ -590,7 +682,7 @@
 	background-size: cover;
 	position: absolute;
 	background-image: image();
-	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1631559083/final4_kq3t0o.jpg");
+	background-image: url("https://res.cloudinary.com/djfu7akxy/image/upload/v1638470480/fotos%20chicas/7_ymb4x0.jpg");
 	inset: 0;
 	transform: translate(-200px, 240px);
   }
